@@ -3,7 +3,9 @@
 #� Project Overview
 In this project, I gathered, assessed, and cleaned data from the **World Health Organization (WHO)** and the **United Nations (UN)** to analyze alcohol-related health risks on a global scale. 
 
-The primary goal was to create a tidy, high-quality master dataset by merging programmatic API data with manual archives, simulating a real-world data wrangling pipeline.
+The primary goal was to create a tidy, high-quality master dataset by merging programmatic API data with manual archives, simulating a real-world data wrangling pipe
+
+[**Click Here to View the Full Analysis Report (HTML)**](https://dilgetakasu.github.io/Real-World-Data-Wrangling/)line.
 ## 🔗 Rationale: Why These Two Datasets?
 
 **Alcohol-related disease mortality is a fundamentally population-normalized indicator.** Population size is necessary to interpret mortality risk meaningfully across countries and years. Without demographic context, raw mortality values or inconsistent indicators can lead to misleading comparisons. 
