@@ -1,18 +1,18 @@
 # Global Analysis of Alcohol-Related Mortality & Population Trends
 
-#� Project Overview
+# Project Overview
 In this project, I gathered, assessed, and cleaned data from the **World Health Organization (WHO)** and the **United Nations (UN)** to analyze alcohol-related health risks on a global scale. 
 
 The primary goal was to create a tidy, high-quality master dataset by merging programmatic API data with manual archives, simulating a real-world data wrangling pipe
 
-[**Click Here to View the Full Analysis Report (HTML)**](https://dilgetakasu.github.io/Real-World-Data-Wrangling/)line.
-## 🔗 Rationale: Why These Two Datasets?
+[**Click Here to View the Full Analysis Report (HTML)**](https://dilgetakasu.github.io/Real-World-Data-Wrangling/).
+## Rationale: Why These Two Datasets?
 
 **Alcohol-related disease mortality is a fundamentally population-normalized indicator.** Population size is necessary to interpret mortality risk meaningfully across countries and years. Without demographic context, raw mortality values or inconsistent indicators can lead to misleading comparisons. 
 
 > **Therefore, combining WHO mortality data with UN population estimates allows for standardized, comparable public health insig.**
 
-## 📊 Datasets & Gathering Methods
+## Datasets & Gathering Methods
 
 I utilized two distinct data sources with different gathering techniques:
 
@@ -39,7 +39,7 @@ I utilized two distinct data sources with different gathering techniques:
     * Life Expectancy (at birth, age 15, 65, 80).
     * ility & Mortality Indicators.
 
-## 🛠️ The Wrangling Process
+## The Wrangling Process
 
 ### 1. Gather
 Successfully implemented a hybrid approach using **`requests`** library for the WHO API and manual handling for the complex UN Excel structure.
@@ -60,7 +60,7 @@ Evaluated the data for Quality and Tidiness issues:
 * Handled missing values and removed non-country aggregates.
 * **Result A clean, merged master dataset ready for analysis.
 
-## 📈 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 After cleaning, I analyzed the data to understand global trends.
 
@@ -69,7 +69,7 @@ After cleaning, I analyzed the data to understand global trends.
 * Are there visible trends when comparing population density to health o Nam update if different).
 * `UN_Population.xlsx`: The raw Excel file.
 
-## ⚙️ Tools & Libraries
+## Tools & Libraries
 * **Python 3**
 * **Pandas** (`json_normalize`, `merge`, `read_excel`)
 * **Requests** (API Interaction)
